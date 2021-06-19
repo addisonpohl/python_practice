@@ -10,7 +10,7 @@ def recursive_function(n):
     elif n < 2:
         return 1
     else:
-        return n * recursive_function(n - 1)
+        return n * recursive_function(n-1)
 
 
 print(recursive_function(5))
